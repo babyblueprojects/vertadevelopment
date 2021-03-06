@@ -331,10 +331,6 @@ html, body {
 
 /* Footer Design Changes */
 
-#footer-bar {
-    height: 6.7vh !important;
-}
-
 #footer-bar .osf-left li a {
     font-size: 2.6vh !important;
     line-height: 6.9vh !important;
@@ -365,30 +361,89 @@ html, body {
     font-size: 2.3vh !important;
 }
 
-/* (1440x900) WXGA+ Display */
-@media  screen and (max-width: 1440px) {
-    /* insert styles here */
-}
- 
-/* (1680x1050) WSXGA+ Display */
-@media  screen and (max-width: 1680px) {
-    /* insert styles here */
-}
- 
-/* (1920x1080) Full HD Display */
-@media  screen and (max-width: 1920px) {
-    /* insert styles here */
-}
- 
-/* (1600x900) HD+ Display */
-@media  screen and (max-width: 1600px) {
-    /* insert styles here */
-}
-
-
-/* (1600x900) HD+ Display */
-@media  screen and (max-width: 2560px) {
-    /* insert styles here */
+.osf-opened .site-footer {
+    min-height: 100px;
+    max-height: 1000px;
 }
 
 /* Footer Design Changes Finished */
+
+@media (min-width: 900px) and (max-width: 1024px) {
+
+    #footer-bar {
+        bottom: 4px !important;
+        margin-bottom: -4px !important;
+    }
+
+}
+
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+
+    #footer-bar {
+        bottom: 3px !important;
+        margin-bottom: -3px !important;
+    }
+
+}
+
+@media (min-width: 1450px) and (max-width: 1680px) {
+
+    #footer-bar {
+        bottom: 10px !important;
+        margin-bottom: -10px !important;
+    }
+
+}
+
+@media (min-width: 1690px) and (max-width: 1920px) {
+
+    #footer-bar {
+        bottom: 18px !important;
+        margin-bottom: -18px !important;
+    }
+    
+    .elementor-628 .elementor-element.elementor-element-623799d2 {
+    left: -7vw;
+    }
+
+    .elementor-628 .elementor-element.elementor-element-56c5156d {
+        left: -7vw;
+    }
+
+    .elementor-628 .elementor-element.elementor-element-985b99c {
+        left: -7vw;
+    }
+
+    .elementor-628 .elementor-element.elementor-element-334a08b6 {
+        left: -7vw;
+    }
+
+}
+
+@media (min-width: 1930px) and (max-width: 2560px) {
+
+    #footer-bar {
+        bottom: 40px;
+        margin-bottom: -40px;
+    }
+     
+    .elementor-628 .elementor-element.elementor-element-623799d2 {
+    left: -7vw;
+    }
+
+    .elementor-628 .elementor-element.elementor-element-56c5156d {
+        left: -7vw;
+    }
+
+    .elementor-628 .elementor-element.elementor-element-985b99c {
+        left: -7vw;
+    }
+
+    .elementor-628 .elementor-element.elementor-element-334a08b6 {
+        left: -7vw;
+    }
+
+}
+
+ 
