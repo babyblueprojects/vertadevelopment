@@ -31,6 +31,10 @@
     right: 0px;
 }
 
+.woocommerce button.button:hover{
+     background: ff6f00 !important;
+}
+
 .woocommerce-MyAccount-content .addresses .woocommerce-Address .title {
 
     padding: 4vh;
@@ -806,6 +810,10 @@ html, body {
          right: 0px;
     }
 
+    .woocommerce button.button:hover{
+         background: ff6f00 !important;
+    }
+
     .woocommerce .wishlist-title h2 {
         font-size: 6.2vw;
     }
@@ -968,6 +976,10 @@ html, body {
         color: black !important;
         font-weight: 300 !important;
         right: 0px;
+    }
+
+    .woocommerce button.button:hover{
+         background: ff6f00 !important;
     }
 
     .woocommerce-MyAccount-content .addresses .woocommerce-Address .title h3 {
@@ -1182,6 +1194,10 @@ html, body {
         color: black !important;
         font-weight: 300 !important;
         right: 0px;
+    }
+
+    .woocommerce button.button:hover{
+         background: ff6f00 !important;
     }
 
     .form-row .required {
