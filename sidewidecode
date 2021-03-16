@@ -292,9 +292,9 @@ body .theme-button, body input[type="submit"], body button[type="submit"], body 
 }
 
 #sp-ea-871.sp-horizontal-accordion>.single-horizontal>.ea-header a .ea-expand-icon {
-    border-right: solid;
+    border-right: solid 2px;
     padding-right: 1em;
-    border-color: #4d4d4d;
+    border-color: #dddddd;
 }
 
 #sp-ea-871.sp-horizontal-accordion>.single-horizontal {
@@ -308,13 +308,14 @@ body .theme-button, body input[type="submit"], body button[type="submit"], body 
 
 #sp-ea-871.sp-horizontal-accordion>.single-horizontal>.ea-header a .ea-expand-icon {
     margin-right: 15px;
-    font-size: 3vh;
-    color: #444;
-    line-height: 6vh;
+    font-size: 2.5vh;
+    color: #595959;
+    line-height: 10.5vh;
+    margin-left: 0.5vw;
 }
 
 #sp-ea-871.sp-horizontal-accordion>.single-horizontal .ea-header a {
-    font-size: 3vh;
+    font-size: 2.5vh;
     color: #4d4d4d;
 }
 
@@ -331,7 +332,7 @@ body .theme-button, body input[type="submit"], body button[type="submit"], body 
 }
 
 .sp-horizontal-accordion>.single-horizontal>.ea-header a {
-    line-height: 5vw;
+    line-height: 0vw;
 }
 
 #sp-ea-871.sp-horizontal-accordion>.single-horizontal>.sp-collapse>.ea-body {
